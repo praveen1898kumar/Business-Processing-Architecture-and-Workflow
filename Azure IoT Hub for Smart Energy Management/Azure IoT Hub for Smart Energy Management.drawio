@@ -1,0 +1,105 @@
+<mxfile host="app.diagrams.net" modified="2024-02-17T17:34:37.293Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="-uG1AIwCwKYk7B0y_nFK" version="23.1.5" type="device">
+  <diagram name="Page-1" id="884LG5f1UxygG6mR-KGI">
+    <mxGraphModel dx="2139" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8V86vOO2M9-vw_DnNcNR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="8V86vOO2M9-vw_DnNcNR-1" target="8V86vOO2M9-vw_DnNcNR-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8V86vOO2M9-vw_DnNcNR-5" value="Authentication" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8V86vOO2M9-vw_DnNcNR-4">
+          <mxGeometry x="-0.175" y="-3" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8V86vOO2M9-vw_DnNcNR-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8V86vOO2M9-vw_DnNcNR-1" target="8V86vOO2M9-vw_DnNcNR-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8V86vOO2M9-vw_DnNcNR-1" value="Azure IoT Hub" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/iot/IoT_Hub.svg;" vertex="1" parent="1">
+          <mxGeometry x="-26.5" y="200" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8V86vOO2M9-vw_DnNcNR-2" value="Azure IoT Hub Security" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Azure_IoT_Hub_Security.svg;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="70" width="37" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8V86vOO2M9-vw_DnNcNR-6" value="IoT Devices" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.alexa_enabled_device;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="150" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8V86vOO2M9-vw_DnNcNR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.44;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8V86vOO2M9-vw_DnNcNR-6" target="8V86vOO2M9-vw_DnNcNR-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8V86vOO2M9-vw_DnNcNR-10" value="Telemetry data,&lt;br style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;including energy consumption readings,&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;voltage levels, and&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;environmental conditions&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="70" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8V86vOO2M9-vw_DnNcNR-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8V86vOO2M9-vw_DnNcNR-11" target="8V86vOO2M9-vw_DnNcNR-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8V86vOO2M9-vw_DnNcNR-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8V86vOO2M9-vw_DnNcNR-11" target="8V86vOO2M9-vw_DnNcNR-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="225" />
+              <mxPoint x="210" y="396" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8V86vOO2M9-vw_DnNcNR-11" value="Azure Stream &lt;br&gt;Analytics" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Stream_Analytics_Jobs.svg;" vertex="1" parent="1">
+          <mxGeometry x="100" y="196" width="68" height="57.99999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="8V86vOO2M9-vw_DnNcNR-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8V86vOO2M9-vw_DnNcNR-13" target="8V86vOO2M9-vw_DnNcNR-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="225" />
+              <mxPoint x="310" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8V86vOO2M9-vw_DnNcNR-13" value="Anomaly&lt;br&gt;Detector" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/ai_machine_learning/Anomaly_Detector.svg;" vertex="1" parent="1">
+          <mxGeometry x="230" y="191" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="8V86vOO2M9-vw_DnNcNR-15" value="Alert" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.2d.alert;" vertex="1" parent="1">
+          <mxGeometry x="340" y="106.80000000000001" width="33.2" height="33.2" as="geometry" />
+        </mxCell>
+        <mxCell id="8V86vOO2M9-vw_DnNcNR-17" value="Azure Blob Storage" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/BlobBlock.svg;" vertex="1" parent="1">
+          <mxGeometry x="248" y="380" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="8V86vOO2M9-vw_DnNcNR-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.01;entryY=0.607;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8V86vOO2M9-vw_DnNcNR-11" target="8V86vOO2M9-vw_DnNcNR-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8V86vOO2M9-vw_DnNcNR-19" value="Store raw and &lt;br&gt;processed IoT data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8V86vOO2M9-vw_DnNcNR-18">
+          <mxGeometry x="0.1533" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8V86vOO2M9-vw_DnNcNR-20" value="Azure Data Lake Storage" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/storage/Data_Lake_Storage_Gen1.svg;" vertex="1" parent="1">
+          <mxGeometry x="70" y="370" width="64" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="8V86vOO2M9-vw_DnNcNR-23" value="Azure Data Lake Analytics" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Data_Lake_Analytics.svg;" vertex="1" parent="1">
+          <mxGeometry x="305.2" y="480" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="8V86vOO2M9-vw_DnNcNR-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.007;entryY=0.559;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8V86vOO2M9-vw_DnNcNR-20" target="8V86vOO2M9-vw_DnNcNR-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="396" />
+              <mxPoint x="210" y="518" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8V86vOO2M9-vw_DnNcNR-25" value="complex data transformations &lt;br&gt;and insights generation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8V86vOO2M9-vw_DnNcNR-24">
+          <mxGeometry x="0.161" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8V86vOO2M9-vw_DnNcNR-26" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/iot/Time_Series_Insights_Environments.svg;" vertex="1" parent="1">
+          <mxGeometry x="520" y="270" width="67" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="8V86vOO2M9-vw_DnNcNR-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.007;entryY=0.426;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8V86vOO2M9-vw_DnNcNR-23" target="8V86vOO2M9-vw_DnNcNR-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8V86vOO2M9-vw_DnNcNR-28" value="Create interactive dashboards &lt;br&gt;and reports.&lt;br&gt;&amp;amp;&lt;br&gt;Monitor energy consumption patterns, &lt;br&gt;identify inefficiencies, and &lt;br&gt;optimize energy distribution" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8V86vOO2M9-vw_DnNcNR-27">
+          <mxGeometry x="0.1023" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
