@@ -1,0 +1,117 @@
+<mxfile host="app.diagrams.net" modified="2024-02-18T09:00:22.442Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="MojjmNPdK9xgPWPwaKTs" version="23.1.5" type="device">
+  <diagram name="Page-1" id="B8_ZYzJbYhYFioHEqbap">
+    <mxGraphModel dx="1811" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TNMsfsHA4HlaWlXC6Rna-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TNMsfsHA4HlaWlXC6Rna-1" target="TNMsfsHA4HlaWlXC6Rna-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNMsfsHA4HlaWlXC6Rna-13" value="Data Ingestion" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TNMsfsHA4HlaWlXC6Rna-9">
+          <mxGeometry x="-0.3273" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TNMsfsHA4HlaWlXC6Rna-1" value="Azure Resources&lt;br&gt;Security telemetry data" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Launch_Portal.svg;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="40.6" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TNMsfsHA4HlaWlXC6Rna-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TNMsfsHA4HlaWlXC6Rna-5" target="TNMsfsHA4HlaWlXC6Rna-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNMsfsHA4HlaWlXC6Rna-14" value="Data Ingestion" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TNMsfsHA4HlaWlXC6Rna-10">
+          <mxGeometry x="-0.5094" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TNMsfsHA4HlaWlXC6Rna-5" value="On-premises &lt;br&gt;infrastructure&lt;br&gt;Security telemetry data" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Exchange_On_premises_Access.svg;" vertex="1" parent="1">
+          <mxGeometry x="45.80000000000001" y="170" width="28.999999999999996" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TNMsfsHA4HlaWlXC6Rna-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TNMsfsHA4HlaWlXC6Rna-6" target="TNMsfsHA4HlaWlXC6Rna-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNMsfsHA4HlaWlXC6Rna-15" value="Data Ingestion" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TNMsfsHA4HlaWlXC6Rna-11">
+          <mxGeometry x="-0.3452" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TNMsfsHA4HlaWlXC6Rna-6" value="Security appliances&lt;br&gt;Security telemetry data" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=nac_appliance;fillColor=#FAFAFA;strokeColor=#005073;" vertex="1" parent="1">
+          <mxGeometry x="35.69999999999999" y="288" width="51.2" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TNMsfsHA4HlaWlXC6Rna-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TNMsfsHA4HlaWlXC6Rna-7" target="TNMsfsHA4HlaWlXC6Rna-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNMsfsHA4HlaWlXC6Rna-16" value="Data Ingestion" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TNMsfsHA4HlaWlXC6Rna-12">
+          <mxGeometry x="-0.4386" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TNMsfsHA4HlaWlXC6Rna-7" value="Network devices&lt;br&gt;Security telemetry data" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/thin-line-icons-for-seo-and-development-1/64/SEO_share-128.png" vertex="1" parent="1">
+          <mxGeometry x="30.3" y="383" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TNMsfsHA4HlaWlXC6Rna-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TNMsfsHA4HlaWlXC6Rna-8" target="TNMsfsHA4HlaWlXC6Rna-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNMsfsHA4HlaWlXC6Rna-19" value="Machine Learning" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TNMsfsHA4HlaWlXC6Rna-18">
+          <mxGeometry x="0.0123" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TNMsfsHA4HlaWlXC6Rna-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="TNMsfsHA4HlaWlXC6Rna-8" target="TNMsfsHA4HlaWlXC6Rna-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNMsfsHA4HlaWlXC6Rna-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TNMsfsHA4HlaWlXC6Rna-8" target="TNMsfsHA4HlaWlXC6Rna-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="236" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TNMsfsHA4HlaWlXC6Rna-28" value="Enhance security&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;visibility and intelligence" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TNMsfsHA4HlaWlXC6Rna-25">
+          <mxGeometry x="0.399" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TNMsfsHA4HlaWlXC6Rna-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TNMsfsHA4HlaWlXC6Rna-8" target="TNMsfsHA4HlaWlXC6Rna-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="236" y="170" />
+              <mxPoint x="310" y="170" />
+              <mxPoint x="310" y="74" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TNMsfsHA4HlaWlXC6Rna-27" value="Enhance security &lt;br&gt;visibility and intelligence" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TNMsfsHA4HlaWlXC6Rna-26">
+          <mxGeometry x="0.1711" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TNMsfsHA4HlaWlXC6Rna-8" value="Azure Sentinel" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Azure_Sentinel.svg;" vertex="1" parent="1">
+          <mxGeometry x="210" y="210" width="52.8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TNMsfsHA4HlaWlXC6Rna-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TNMsfsHA4HlaWlXC6Rna-17" target="TNMsfsHA4HlaWlXC6Rna-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNMsfsHA4HlaWlXC6Rna-30" value="Alert/Incidents" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TNMsfsHA4HlaWlXC6Rna-29">
+          <mxGeometry x="-0.1416" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TNMsfsHA4HlaWlXC6Rna-17" value="Azure Anomaly&lt;br&gt;Detector" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/ai_machine_learning/Anomaly_Detector.svg;" vertex="1" parent="1">
+          <mxGeometry x="390" y="206" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="TNMsfsHA4HlaWlXC6Rna-20" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.systems_manager_incident_manager;" vertex="1" parent="1">
+          <mxGeometry x="540" y="120" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="TNMsfsHA4HlaWlXC6Rna-21" value="Azure Security Center" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/security/Security_Center.svg;" vertex="1" parent="1">
+          <mxGeometry x="402" y="40" width="56.00000000000001" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="TNMsfsHA4HlaWlXC6Rna-22" value="Microsoft Defender" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Defender_Engineering_Station.svg;" vertex="1" parent="1">
+          <mxGeometry x="396" y="350" width="68" height="62.839999999999996" as="geometry" />
+        </mxCell>
+        <mxCell id="TNMsfsHA4HlaWlXC6Rna-23" value="&lt;span style=&quot;background-color: initial; font-family: &amp;quot;Helvetica Neue&amp;quot;; font-size: 13px; text-align: start;&quot;&gt;Utilize built-in compliance dashboards &lt;br&gt;and reports in &lt;br&gt;Azure Sentinel for monitoring &lt;br&gt;and auditing &lt;br&gt;compliance with industry regulations &lt;br&gt;and data protection standards.&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="111.4" y="510" width="250" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
