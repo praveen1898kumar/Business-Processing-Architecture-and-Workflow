@@ -1,0 +1,268 @@
+<mxfile host="app.diagrams.net" modified="2024-02-18T08:39:38.430Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="tyH-BI0TdH5Q7uD-ZSN_" version="23.1.5" type="device">
+  <diagram name="Page-1" id="qighhcrfT4ufCsocyq7r">
+    <mxGraphModel dx="2341" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="5PRt_pLS5RfoEKid5wRg-2" target="5PRt_pLS5RfoEKid5wRg-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-15" value="Authentication" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5PRt_pLS5RfoEKid5wRg-14">
+          <mxGeometry x="0.2378" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-13" value="Azure Active Directory" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Azure_Active_Directory.svg;" vertex="1" parent="1">
+          <mxGeometry x="57.15" y="330" width="54.69" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-16" value="Azure Blob Storage" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/BlobBlock.svg;" vertex="1" parent="1">
+          <mxGeometry x="320" y="334" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-17" value="Azure Files" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Storage_Azure_Files.svg;" vertex="1" parent="1">
+          <mxGeometry x="450" y="330" width="64" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-20" y="60" width="870" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-2" value="Azure Virtual Desktop" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machines_Classic.svg;" vertex="1" parent="5PRt_pLS5RfoEKid5wRg-18">
+          <mxGeometry x="70" y="130" width="69" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-3" value="Host pools" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Host_Pools.svg;" vertex="1" parent="5PRt_pLS5RfoEKid5wRg-18">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="5PRt_pLS5RfoEKid5wRg-18" source="5PRt_pLS5RfoEKid5wRg-2" target="5PRt_pLS5RfoEKid5wRg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-10" value="Confiigure" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5PRt_pLS5RfoEKid5wRg-6">
+          <mxGeometry x="0.3256" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-4" value="Session hosts" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.systems_manager_session_manager;" vertex="1" parent="5PRt_pLS5RfoEKid5wRg-18">
+          <mxGeometry x="84.5" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="5PRt_pLS5RfoEKid5wRg-18" source="5PRt_pLS5RfoEKid5wRg-2" target="5PRt_pLS5RfoEKid5wRg-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-11" value="Confiigure" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5PRt_pLS5RfoEKid5wRg-7">
+          <mxGeometry x="-0.1556" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-5" value="Virtual networks" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks.svg;" vertex="1" parent="5PRt_pLS5RfoEKid5wRg-18">
+          <mxGeometry x="180" y="16.120000000000005" width="40" height="23.88" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="5PRt_pLS5RfoEKid5wRg-18" source="5PRt_pLS5RfoEKid5wRg-2" target="5PRt_pLS5RfoEKid5wRg-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-12" value="Confiigure" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5PRt_pLS5RfoEKid5wRg-8">
+          <mxGeometry x="0.3005" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-52" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=4;" vertex="1" parent="5PRt_pLS5RfoEKid5wRg-18">
+          <mxGeometry x="-50" y="-20" width="920" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-19" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="260" y="60" width="220" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-20" value="Azure Virtual Desktop" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machines_Classic.svg;" vertex="1" parent="5PRt_pLS5RfoEKid5wRg-19">
+          <mxGeometry x="70" y="130" width="69" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-21" value="Host pools" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Host_Pools.svg;" vertex="1" parent="5PRt_pLS5RfoEKid5wRg-19">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="5PRt_pLS5RfoEKid5wRg-19" source="5PRt_pLS5RfoEKid5wRg-20" target="5PRt_pLS5RfoEKid5wRg-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-23" value="Confiigure" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5PRt_pLS5RfoEKid5wRg-22">
+          <mxGeometry x="0.3256" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-24" value="Session hosts" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.systems_manager_session_manager;" vertex="1" parent="5PRt_pLS5RfoEKid5wRg-19">
+          <mxGeometry x="84.5" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="5PRt_pLS5RfoEKid5wRg-19" source="5PRt_pLS5RfoEKid5wRg-20" target="5PRt_pLS5RfoEKid5wRg-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-26" value="Confiigure" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5PRt_pLS5RfoEKid5wRg-25">
+          <mxGeometry x="-0.1556" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-27" value="Virtual networks" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks.svg;" vertex="1" parent="5PRt_pLS5RfoEKid5wRg-19">
+          <mxGeometry x="180" y="16.120000000000005" width="40" height="23.88" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="5PRt_pLS5RfoEKid5wRg-19" source="5PRt_pLS5RfoEKid5wRg-20" target="5PRt_pLS5RfoEKid5wRg-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-29" value="Confiigure" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5PRt_pLS5RfoEKid5wRg-28">
+          <mxGeometry x="0.3005" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-30" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="550" y="60" width="220" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-31" value="Azure Virtual Desktop" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machines_Classic.svg;" vertex="1" parent="5PRt_pLS5RfoEKid5wRg-30">
+          <mxGeometry x="70" y="130" width="69" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-32" value="Host pools" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Host_Pools.svg;" vertex="1" parent="5PRt_pLS5RfoEKid5wRg-30">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="5PRt_pLS5RfoEKid5wRg-30" source="5PRt_pLS5RfoEKid5wRg-31" target="5PRt_pLS5RfoEKid5wRg-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-34" value="Confiigure" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5PRt_pLS5RfoEKid5wRg-33">
+          <mxGeometry x="0.3256" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-35" value="Session hosts" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.systems_manager_session_manager;" vertex="1" parent="5PRt_pLS5RfoEKid5wRg-30">
+          <mxGeometry x="84.5" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="5PRt_pLS5RfoEKid5wRg-30" source="5PRt_pLS5RfoEKid5wRg-31" target="5PRt_pLS5RfoEKid5wRg-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-37" value="Confiigure" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5PRt_pLS5RfoEKid5wRg-36">
+          <mxGeometry x="-0.1556" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-38" value="Virtual networks" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks.svg;" vertex="1" parent="5PRt_pLS5RfoEKid5wRg-30">
+          <mxGeometry x="180" y="16.120000000000005" width="40" height="23.88" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="5PRt_pLS5RfoEKid5wRg-30" source="5PRt_pLS5RfoEKid5wRg-31" target="5PRt_pLS5RfoEKid5wRg-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-40" value="Confiigure" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5PRt_pLS5RfoEKid5wRg-39">
+          <mxGeometry x="0.3005" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="5PRt_pLS5RfoEKid5wRg-20" target="5PRt_pLS5RfoEKid5wRg-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="222" />
+              <mxPoint x="210" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-43" value="Authentication" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5PRt_pLS5RfoEKid5wRg-41">
+          <mxGeometry x="-0.1201" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="5PRt_pLS5RfoEKid5wRg-31" target="5PRt_pLS5RfoEKid5wRg-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="655" y="290" />
+              <mxPoint x="210" y="290" />
+              <mxPoint x="210" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-44" value="Authentication" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5PRt_pLS5RfoEKid5wRg-42">
+          <mxGeometry x="-0.2931" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.02;entryY=0.179;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5PRt_pLS5RfoEKid5wRg-2" target="5PRt_pLS5RfoEKid5wRg-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="222" />
+              <mxPoint x="260" y="342" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-46" value="Profile" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5PRt_pLS5RfoEKid5wRg-45">
+          <mxGeometry x="0.4804" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5PRt_pLS5RfoEKid5wRg-20" target="5PRt_pLS5RfoEKid5wRg-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-48" value="Profile" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5PRt_pLS5RfoEKid5wRg-47">
+          <mxGeometry x="0.4874" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.337;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5PRt_pLS5RfoEKid5wRg-31" target="5PRt_pLS5RfoEKid5wRg-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="222" />
+              <mxPoint x="590" y="348" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-50" value="Profile" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5PRt_pLS5RfoEKid5wRg-49">
+          <mxGeometry x="0.3089" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-53" value="Corporate Resources" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="428" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5PRt_pLS5RfoEKid5wRg-54" target="5PRt_pLS5RfoEKid5wRg-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-54" value="User" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/azure_stack/User_Subscriptions.svg;" vertex="1" parent="1">
+          <mxGeometry x="336" y="610" width="68" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5PRt_pLS5RfoEKid5wRg-55" target="5PRt_pLS5RfoEKid5wRg-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="643" />
+              <mxPoint x="490" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-55" value="User" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/azure_stack/User_Subscriptions.svg;" vertex="1" parent="1">
+          <mxGeometry x="600" y="610" width="68" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5PRt_pLS5RfoEKid5wRg-56" target="5PRt_pLS5RfoEKid5wRg-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="643" />
+              <mxPoint x="250" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-56" value="User" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/azure_stack/User_Subscriptions.svg;" vertex="1" parent="1">
+          <mxGeometry x="90" y="610" width="68" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5PRt_pLS5RfoEKid5wRg-61" target="5PRt_pLS5RfoEKid5wRg-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-61" value="Azure Virtual Network" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks.svg;" vertex="1" parent="1">
+          <mxGeometry x="336" y="490" width="67" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="5PRt_pLS5RfoEKid5wRg-66" target="5PRt_pLS5RfoEKid5wRg-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-68" value="Monitor and protect virtual desktop" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5PRt_pLS5RfoEKid5wRg-67">
+          <mxGeometry x="-0.1167" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-66" value="Azure Security Center&amp;nbsp;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/security/Security_Center.svg;" vertex="1" parent="1">
+          <mxGeometry x="592" y="490" width="56.00000000000001" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-69" value="Azure Monitor" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/management_governance/Monitor.svg;" vertex="1" parent="1">
+          <mxGeometry x="70" y="478" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.187;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5PRt_pLS5RfoEKid5wRg-69" target="5PRt_pLS5RfoEKid5wRg-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5PRt_pLS5RfoEKid5wRg-71" value="Monitor the health, performance, and availability of virtual desktop" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5PRt_pLS5RfoEKid5wRg-70">
+          <mxGeometry x="0.0576" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
