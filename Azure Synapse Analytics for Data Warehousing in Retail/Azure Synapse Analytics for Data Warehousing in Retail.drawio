@@ -1,0 +1,134 @@
+<mxfile host="app.diagrams.net" modified="2024-02-21T19:18:00.320Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="VHOfNUViTwMTCbxWHQbT" version="23.1.5" type="device">
+  <diagram name="Page-1" id="7s3iYLf4UXF3R9vs2b-6">
+    <mxGraphModel dx="1789" dy="1005" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qvadbcqChvsnRQq6cGVY-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qvadbcqChvsnRQq6cGVY-1" target="qvadbcqChvsnRQq6cGVY-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-1" value="POS systems" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/POS_keypad.svg;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="37.2" height="27.6" as="geometry" />
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qvadbcqChvsnRQq6cGVY-2" target="qvadbcqChvsnRQq6cGVY-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-2" value="e-commerce &lt;br&gt;platforms" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/basic-e-commerce-line-color/48/Trolley_cart_add-128.png" vertex="1" parent="1">
+          <mxGeometry x="33.60000000000002" y="190" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qvadbcqChvsnRQq6cGVY-3" target="qvadbcqChvsnRQq6cGVY-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-3" value="Supply chain systems" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.supply_chain;" vertex="1" parent="1">
+          <mxGeometry x="33.60000000000002" y="300" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qvadbcqChvsnRQq6cGVY-4" target="qvadbcqChvsnRQq6cGVY-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-4" value="CRM" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.retail2;" vertex="1" parent="1">
+          <mxGeometry x="28.600000000000023" y="400" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qvadbcqChvsnRQq6cGVY-12" target="qvadbcqChvsnRQq6cGVY-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-21" value="Analyze both structured and &lt;br&gt;unstructured retail data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qvadbcqChvsnRQq6cGVY-20">
+          <mxGeometry x="-0.1635" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qvadbcqChvsnRQq6cGVY-12" target="qvadbcqChvsnRQq6cGVY-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="412" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-30" value="Monitor KPIs, track sales performance, &lt;br&gt;and make data-driven decisions in real-time" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qvadbcqChvsnRQq6cGVY-29">
+          <mxGeometry x="-0.0161" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-12" value="Azure Data Lake &lt;br&gt;Storage" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/storage/Data_Lake_Storage_Gen1.svg;" vertex="1" parent="1">
+          <mxGeometry x="380" y="268" width="64" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qvadbcqChvsnRQq6cGVY-13" target="qvadbcqChvsnRQq6cGVY-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-13" value="Azure Data Factory" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Data_Factory.svg;" vertex="1" parent="1">
+          <mxGeometry x="210" y="260" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qvadbcqChvsnRQq6cGVY-19" target="qvadbcqChvsnRQq6cGVY-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-19" value="Azure Synapse &lt;br&gt;Analytics" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Azure_Synapse_Analytics.svg;" vertex="1" parent="1">
+          <mxGeometry x="660" y="260" width="60" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qvadbcqChvsnRQq6cGVY-22" target="qvadbcqChvsnRQq6cGVY-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-24" value="Real-time analytics and insights on customer behavior, &lt;br&gt;sales trends, and inventory levels" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qvadbcqChvsnRQq6cGVY-23">
+          <mxGeometry x="-0.0285" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-22" value="IoT devices" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.iot;" vertex="1" parent="1">
+          <mxGeometry x="660" y="60" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-25" value="Custom machine &lt;br&gt;learning models" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/ai_machine_learning/Cognitive_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="810" y="270" width="68" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-28" value="Power BI" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Power_BI_Embedded.svg;" vertex="1" parent="1">
+          <mxGeometry x="818.5" y="410" width="51" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="qvadbcqChvsnRQq6cGVY-31" target="qvadbcqChvsnRQq6cGVY-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-39" value="RBAC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qvadbcqChvsnRQq6cGVY-34">
+          <mxGeometry x="0.1074" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="qvadbcqChvsnRQq6cGVY-31" target="qvadbcqChvsnRQq6cGVY-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1020" y="642" />
+              <mxPoint x="1020" y="294" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-41" value="RBAC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qvadbcqChvsnRQq6cGVY-35">
+          <mxGeometry x="0.1348" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="qvadbcqChvsnRQq6cGVY-31" target="qvadbcqChvsnRQq6cGVY-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-40" value="RBAC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qvadbcqChvsnRQq6cGVY-36">
+          <mxGeometry x="0.651" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-31" value="&lt;br&gt;Azure Active Directory" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Azure_Active_Directory.svg;" vertex="1" parent="1">
+          <mxGeometry x="470" y="610" width="70" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.804;entryY=1.034;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="qvadbcqChvsnRQq6cGVY-31" target="qvadbcqChvsnRQq6cGVY-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-37" value="RBAC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qvadbcqChvsnRQq6cGVY-32">
+          <mxGeometry x="0.2212" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.198;entryY=0.942;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="qvadbcqChvsnRQq6cGVY-31" target="qvadbcqChvsnRQq6cGVY-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qvadbcqChvsnRQq6cGVY-38" value="RBAC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qvadbcqChvsnRQq6cGVY-33">
+          <mxGeometry x="-0.0935" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
